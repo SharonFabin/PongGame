@@ -1,0 +1,21 @@
+#fancytext {
+    -fx-font: 100px Tahoma;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+}
+
+#menu{
+    -fx-font: 30px Arial;
+    -fx-background-color: orange;
+    -fx-border-radius: 5px;
+}
+
+#menu .menu-item:visited{
+    -fx-background-color: #343434;
+}
+
+#menu .menu-item:hover{
+    -fx-background-color: #343434;
+    -fx-cursor: hand;
+}

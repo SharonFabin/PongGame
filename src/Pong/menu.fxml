@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="an1" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-image: url('bg1.jpg');" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pong.Controller">
+   <children>
+      <Pane fx:id="pane1" prefHeight="800.0" prefWidth="1200.0">
+         <children>
+            <Button fx:id="player1" layoutX="191.0" layoutY="400.0" mnemonicParsing="false" onAction="#mode1" prefHeight="80.0" prefWidth="200.0" text="1 Player" />
+            <Button fx:id="player2" layoutX="500.0" layoutY="400.0" mnemonicParsing="false" onAction="#mode2" prefHeight="80.0" prefWidth="200.0" text="2 Players" />
+            <Button fx:id="exitbut" layoutX="809.0" layoutY="400.0" mnemonicParsing="false" onAction="#exit" prefHeight="80.0" prefWidth="200.0" text="Exit" />
+            <ImageView fitHeight="266.0" fitWidth="418.0" layoutX="391.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cutlogo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
